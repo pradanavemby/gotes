@@ -1,5 +1,5 @@
 package gotes
 
-func SayHello() string {
-	return "hello syn"
+func SayHello(name string) string {
+	return "hello " + name
 }
